@@ -38,7 +38,7 @@ from aiogram.types import (
 # ============================================================
 # CONFIGURATION — token bu yerga qo'yiladi
 # ============================================================
-BOT_TOKEN = "PASTE_YOUR_TELEGRAM_BOT_TOKEN_HERE"
+BOT_TOKEN = "8119420447:AAG9Fx3twCVOPOQoVs78ef4VKX4Ii1Bu_gY"
 
 # ============================================================
 # TEXTS — ikki tilda
