@@ -38,7 +38,7 @@ from aiogram.types import (
 # ============================================================
 # CONFIGURATION — token bu yerga qo'yiladi
 # ============================================================
-BOT_TOKEN = "8119420447:AAG9Fx3twCVOPOQoVs78ef4VKX4Ii1Bu_gY"
+BOT_TOKEN = "PASTE_YOUR_TELEGRAM_BOT_TOKEN_HERE"
 
 # ============================================================
 # TEXTS — ikki tilda
@@ -553,9 +553,9 @@ async def save_candidate(tg_id: int, username: str, data: dict, status: str):
     print(f"Viloyat:      {data.get('region')}")
     print(f"Shahar:       {data.get('city')}")
     print(f"Yosh:         {data.get('age')}")
-    print(f"Tajriba:      {'Ha' if data.get('experience') else 'Yo\\'q'}")
-    print(f"Smartfon:     {'Ha' if data.get('smartphone') else 'Yo\\'q'}")
-    print(f"Tashriflar:   {'Ha' if data.get('ready_visit') else 'Yo\\'q'}")
+    print(f"Tajriba:      {'Ha' if data.get('experience') else 'Yoq'}")
+    print(f"Smartfon:     {'Ha' if data.get('smartphone') else 'Yoq'}")
+    print(f"Tashriflar:   {'Ha' if data.get('ready_visit') else 'Yoq'}")
     if data.get("question"):
         print(f"Savol:        {data['question']}")
     if data.get("reject_reason"):
@@ -569,7 +569,7 @@ async def save_candidate(tg_id: int, username: str, data: dict, status: str):
 async def main():
     logging.basicConfig(level=logging.INFO)
 
-    if BOT_TOKEN == "PASTE_YOUR_TELEGRAM_BOT_TOKEN_HERE":
+    if BOT_TOKEN == "8119420447:AAG9Fx3twCVOPOQoVs78ef4VKX4Ii1Bu_gY":
         print("⚠️  Iltimos, BOT_TOKEN ni sozlang (BotFather'dan oling)")
         return
 
