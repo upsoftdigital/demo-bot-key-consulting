@@ -569,9 +569,9 @@ async def save_candidate(tg_id: int, username: str, data: dict, status: str):
 async def main():
     logging.basicConfig(level=logging.INFO)
 
-    if BOT_TOKEN == "8119420447:AAG9Fx3twCVOPOQoVs78ef4VKX4Ii1Bu_gY":
-        print("⚠️  Iltimos, BOT_TOKEN ni sozlang (BotFather'dan oling)")
-        return
+    # if BOT_TOKEN == "8119420447:AAG9Fx3twCVOPOQoVs78ef4VKX4Ii1Bu_gY":
+        # print("⚠️  Iltimos, BOT_TOKEN ni sozlang (BotFather'dan oling)")
+        # return
 
     bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher(storage=MemoryStorage())
